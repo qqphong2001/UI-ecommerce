@@ -27,3 +27,23 @@
 .category-box:hover .category-name {
   color: var(--main-color);
 }
+
+#product-main-img .product-preview img {
+  margin: auto;
+  width: 320px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 15px 0px;
+}
+
+#product-imgs .product-preview {
+  padding: 5px;
+}
+
+#product-imgs .product-preview img {
+  margin: auto;
+  width: 80px;
+  height: 110px;
+}
+
+

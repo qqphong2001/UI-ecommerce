@@ -46,4 +46,88 @@
   height: 110px;
 }
 
+.auth-form-box {
+  padding: 30px;
+  max-width: 600px; 
+  margin: 20px auto; 
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
 
+
+.auth-form-box h3 {
+  margin: 20px 0;
+}
+
+.auth-form-box input {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.auth-form-box button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.auth-form-box .auth-modal-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.auth-form-box button#btnLogin {
+  background-color: var(--main-color);
+  transition: .25s all ease-in-out;
+}
+
+.auth-form-box button#btnLogin:hover {
+  background-color: var(--main-color);
+  opacity: .8;
+}
+
+.auth-form-box .auth-form-devider {
+  position: relative;
+}
+
+.auth-form-box .auth-form-devider hr {
+  margin: 30px;
+  height: 1px;
+  background: #000;
+  border: none;
+  opacity: .5;
+}
+
+.auth-form-box .auth-form-devider span {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  background: #fff;
+  padding: 0 5px;
+  font-weight: bold;
+  transform: translateX(-50%);
+}
+
+.auth-form-box button i {
+  position: relative;
+  left: 3px;
+  top: 3px;
+  font-size: 20px;
+}
+
+.auth-form-box button#btnFacebook {
+  background: #087AEA;
+  font-weight: bold;
+  border: none;
+}
+
+.auth-form-box button#btnGoogle {
+  background-color: #fff;
+  color: #111;
+  font-weight: bold;
+  border: 1px solid #111;
+}

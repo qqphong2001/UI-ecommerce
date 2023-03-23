@@ -135,3 +135,50 @@
   font-weight: bold;
   border: 1px solid #111;
 }
+
+input:read-only {
+  background: #fff !important;
+}
+
+.order-item {
+  position: relative;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+}
+
+.order-item .close {
+  position: absolute;
+  font-size: 20px;
+  opacity: .5;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.order-item .order-item-left {
+  display: flex;
+}
+
+.order-item .order-item-left .order-item-title,
+.order-item .order-item-left .order-item-price {
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.order-item .order-item-left img {
+  width: 80px;
+  height: 105px;
+  border-radius: 5px;
+}
+
+.order-item .order-item-left .qty-label {
+  margin: 10px 0px 10px 30px;
+  max-width: 100px;
+}
+
+.order-item .order-item-right {
+  margin-right: 10px;
+}

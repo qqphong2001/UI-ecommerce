@@ -919,10 +919,11 @@ textarea.input {
 
 .product .product-img {
   position: relative;
+  text-align: center;
 }
 
 .product .product-img>img {
-  margin: auto;
+  margin: auto; 
   border-radius: 10px;
   width: 100%;
   height: 100%;
@@ -1158,7 +1159,8 @@ textarea.input {
 }
 
 .product-widget .product-img>img {
-  width: 100%;
+  width: 90%;
+  border-radius: 5px;
 }
 
 .product-widget .product-body {
@@ -1489,6 +1491,7 @@ textarea.input {
   text-align: center;
   background-color: #FFF;
   border: 1px solid #E4E7ED;
+  border-radius: 5px;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
@@ -1498,7 +1501,8 @@ textarea.input {
 }
 
 .store-pagination li:hover {
-  background-color: #E4E7ED;
+  background-color: #fff;
+  border-color: var(--main-color);
   color: var(--main-color);
 }
 
@@ -1912,13 +1916,15 @@ textarea.input {
   text-align: center;
   background-color: #FFF;
   border: 1px solid #E4E7ED;
+  border-radius: 5px;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
 
 .reviews-pagination li:hover {
-  background-color: #E4E7ED;
+  background-color: #fff;
   color: var(--main-color);
+  border-color: var(--main-color);
 }
 
 .reviews-pagination li.active {

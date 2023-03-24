@@ -18,10 +18,10 @@
 }
 
 .category-box .category-name {
-    margin: 1rem 0;
-    font-size: 12px;
-    font-weight: bold;
-    color: #8D99AE;
+  margin: 1rem 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8D99AE;
 }
 
 .category-box:hover .category-img {
@@ -52,8 +52,8 @@
 
 .auth-form-box {
   padding: 30px;
-  max-width: 600px; 
-  margin: 20px auto; 
+  max-width: 600px;
+  margin: 20px auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
@@ -181,4 +181,111 @@ input:read-only {
 
 .order-item .order-item-right {
   margin-right: 10px;
+}
+
+
+.user-info-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding: 20px;
+}
+
+
+
+
+
+.user-info-box .user-info-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.user-info-box .user-info-box-partial {
+  margin: 20px;
+  width: 100%;
+}
+
+.user-info-box .userAvatarBox {
+  position: relative;
+}
+
+.user-info-box .userAvatarBox .iconCover #photoInput::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.user-info-box .userAvatarBox .iconCover i,
+.user-info-box .userAvatarBox .iconCover #photoInput {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-70%, -20%);
+}
+
+.user-info-box .userAvatarBox .iconCover i {
+  padding: 5px;
+  background-color: #fff;
+  color: var(--main-color);
+  font-size: 25px;
+  border-radius: 50%;
+  border: 1px solid var(--main-color);
+  z-index: 50;
+}
+
+.user-info-box .userAvatarBox .iconCover #photoInput {
+  width: 36px;
+  height: 36px;
+  opacity: 0;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.user-info-box-divider {
+  background-color: #111;
+  opacity: 0.3;
+}
+
+.user-info-box-divider-vertical {
+  height: 350px;
+  width: 2px;
+}
+
+.user-info-box-divider-horizontal {
+  display: none;
+  width: 100%;
+  max-width: 500px;
+  height: 2px;
+}
+
+.user-info-box .userAvatar {
+  border-radius: 50%;
+}
+
+.user-info-box .user-info-submit {
+  background: var(--main-color);
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid var(--main-color);
+  transition: .25s all ease-in-out;
+}
+.user-info-box .user-info-submit:hover {
+  background: #fff;
+  color: var(--main-color);
+}
+
+@media screen and (max-width: 768px) {
+  .user-info-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-info-box-divider-vertical {
+    display: none;
+  }
+
+  .user-info-box-divider-horizontal {
+    display: block;
+  }
 }
